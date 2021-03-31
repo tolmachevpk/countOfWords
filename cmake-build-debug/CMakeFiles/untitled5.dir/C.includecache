@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Peter/CLionProjects/untitled5/main.c
+name.h
+/Users/Peter/CLionProjects/untitled5/name.h
+
+/Users/Peter/CLionProjects/untitled5/name.h
+fcntl.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+sys/wait.h
+-
+sys/stat.h
+-
+limits.h
+-
+sys/types.h
+-
+string.h
+-
+
